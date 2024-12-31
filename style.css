@@ -1,0 +1,89 @@
+/* styles.css */
+*{
+  background-color: #f4f4f9;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+table{
+  width:100%;
+  border-collapse: collapse;
+}
+th,td{
+  padding: 10px;
+  border:1px solid #000;
+  text-align: left;
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #777;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  border-bottom: 2px solid #f4f4f9;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: square inside;
+  margin-left: 20px;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.job h3 {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.job p {
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #777;
+}
